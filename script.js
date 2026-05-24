@@ -1,0 +1,29 @@
+// // Smooth scroll reveal animations
+// ScrollReveal().reveal('.animate', {
+//   duration: 1000,
+//   distance: '50px',
+//   origin: 'bottom',
+//   easing: 'ease-out'
+// });
+// ScrollReveal().reveal('.delay', { delay: 200 });
+// ScrollReveal().reveal('.delay2', { delay: 400 });
+// ScrollReveal().reveal('.delay3', { delay: 600 });
+
+// // Navbar link highlight on scroll
+// const sections = document.querySelectorAll('section');
+// const navLinks = document.querySelectorAll('.nav-links a');
+
+// window.addEventListener('scroll', () => {
+//   let current = "";
+//   sections.forEach(section => {
+//     const sectionTop = section.offsetTop - 70;
+//     if (pageYOffset >= sectionTop) current = section.getAttribute("id");
+//   });
+//   navLinks.forEach(link => {
+//     link.classList.remove("active");
+//     if (link.getAttribute("href").includes(current)) {
+//       link.classList.add("active");
+//     }
+//   });
+// });
+
